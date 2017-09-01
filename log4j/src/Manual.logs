@@ -1,0 +1,10 @@
+2017-07-20 15:37:08,636 +0530 [main] DEBUG (Log.java:21) - opening webiste
+2017-07-20 15:37:08,808 +0530 [main] DEBUG (Log.java:23) - entring weight
+2017-07-20 15:37:14,042 +0530 [main] DEBUG (Log.java:25) - selecting kilograms
+2017-07-20 15:37:14,949 +0530 [main] DEBUG (Log.java:27) - selecting height in feet
+2017-07-20 15:37:15,167 +0530 [main] DEBUG (Log.java:29) - selecting height in inchs
+2017-07-20 15:37:15,308 +0530 [main] DEBUG (Log.java:31) - Clicking on calculate
+2017-07-20 15:37:15,527 +0530 [main] DEBUG (Log.java:34) - Getting SIUnit value
+2017-07-20 15:37:15,589 +0530 [main] DEBUG (Log.java:36) - Getting USUnit value
+2017-07-20 15:37:15,667 +0530 [main] DEBUG (Log.java:38) - Getting UKUnit value
+2017-07-20 15:37:15,730 +0530 [main] DEBUG (Log.java:40) - Getting overall description

@@ -1,0 +1,11 @@
+/.classpath
+/.project
+/.settings/
+/Manual.logs
+/Selenium.logs
+/log4/
+/log4j.properties
+/manualfortech.logs
+/obb.txt
+/obbt.txt
+/out.txt
