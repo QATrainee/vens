@@ -1,21 +1,18 @@
-///venkat
+
 package automatestruct;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
+import java.util.logging.Logger;
 
-//import org.apache.log4j.BasicConfigurator;
-import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
-
-	
- WebDriver driver;
+public class BaseClass{
+WebDriver driver;
 	Logger log = Logger.getLogger("devpinoyLogger");
 	
 	public BaseClass(WebDriver driver) throws Exception {
@@ -58,7 +55,7 @@ void browserOpen() throws InterruptedException {
 	log.info("Entering password");
 
 	driver.findElement(By.xpath(prop.getProperty("submitbutton"))).click();
-	log.debug("Clicking submit button");
+	;
 
 	Thread.sleep(1000);
 	
